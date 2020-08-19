@@ -106,7 +106,7 @@ async def getanime(client, message):
 async def text(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"Hello {message.from_user.first_name},\n<b>Please Don't Spam Here \n Send Me A Photo Or Video To Convert It In Telegra.ph Link \n \n Bot Created By : @Mai_bOTs </b>",
+        text=f"Hello {message.from_user.first_name},\n<b>Please Don't Spam Here \n Send Me A Photo Or Video To Convert It In Telegra.ph Link \n \n Bot Created By : @noob_admin </b>",
         reply_to_message_id=message.message_id
     )
 
